@@ -1,0 +1,136 @@
+body{
+    background-image: url('Assets/sfondo.jpg');
+    background-size: cover; /* adatta l'immagine alla dimensione del contenitore */
+}
+
+.box_h{
+    background-color: #3BA7FF;
+}
+#M{
+    border: 2.5px solid white;
+    border-radius: 1.5rem;
+    padding: 0.2rem;
+}
+#M a{
+   text-decoration: none;
+   color: #F42727;
+}
+
+nav .navbar-brand img{
+    max-height: 4rem;
+ }
+
+ #Nav_personalizzata ul li a i{
+ font-size: 1.5rem;
+ color: white;
+ }
+ 
+.navbar-toggler, .nav-item.dropdown i, .nav-item .dropdown-toggle{
+    color: white;
+}
+
+li.d-flex a{
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    font-size: 0.9rem;
+}
+.dropdown-menu li{
+    max-height: 2rem;;
+}
+
+
+@media (min-width: 940px){
+   
+  .dropdown-menu.mb-2{
+    top:0; 
+    left:6rem;
+    }
+  }
+  @media (max-width: 940px) {
+   
+    li.d-flex a{
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+        font-size: 0.7rem;
+    } 
+
+  }
+
+/* .dx,.sx{
+    background-color: #3BA7FF;
+    border: 1px solid #F42727;
+} */
+
+
+.carousel-item img {
+    width: 100%;
+    max-height: 40vh;
+    border-radius: 1em;
+}
+
+/* STILE BOTTONI DEL CAROSELLO */
+#carosello-album-di-tendenza button .display-6{
+    color: #3BA7FF;
+    padding-top: 1.5em;
+}
+/* STILE titoli CAROSELLO */
+.carousel-item h2{
+    color: azure;
+}
+.bordo{
+    color: azure;
+    border: 4px solid azure;
+    border-radius: 1em;
+    opacity: 0.9;
+    margin: 2rem 0;
+}
+
+/*STILE CARTE*/
+.card{
+    background-color: #0283a054;
+    border: 2px solid azure;
+    padding: 0.5rem ;
+    padding-bottom: 1rem;
+}
+
+.card img{
+    min-width: 50%;
+    max-height: 50%;
+}
+
+
+
+@media (max-width: 768px){
+    .card img{
+        min-width: 30%;
+        max-height: 30%;
+    }
+    .card{
+        padding: 0.1rem;
+    }
+    .card p{
+        font-size: 0.8rem;
+    }
+    .card h5{
+        font-size: 0.9rem;
+    }
+ 
+}
+
+@media (max-width: 576px){
+    .card p{
+        font-size: 1.9rem;
+    }
+    .card h5{
+        font-size: 2.2rem;
+    }
+}
+
+/* Breakpoint	Class infix	Dimensions
+Extra small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px */
+
